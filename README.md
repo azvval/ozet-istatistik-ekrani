@@ -34,9 +34,9 @@ ozet-istatistik-ekrani/
 ├── ortalama.m
 ├── medyan.m
 ├── varyans.m
-├── Q1.m
-├── Q3.m
-└── (diğer fonksiyon dosyaları)
+├── birinci_ceyrek.m
+├── ucuncu_ceyrek.m
+
 ```
 
 > **Not:** `ozetist_fonksiyonlar` klasöründeki tüm fonksiyon dosyalarını ana klasöre taşımalısınız. Alt klasörde dosya bırakmayınız.
