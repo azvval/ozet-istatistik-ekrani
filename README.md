@@ -1,11 +1,50 @@
-**Dosya Yapısı**
+# Özet İstatistik Ekranı 📊
+Bu program MATLAB ile Programlama Dersi kapsamında Final Ödevi için hazırlanmıştır.
+Girilen verilerin beş temel istatistiksel ölçümlerini hesaplayan  MATLAB GUI uygulamasıdır.
 
-- Lütfen tüm dosyaların aynı klasörde bulunması gerektiğini unutmayın.
+## Özellikler ✨
 
-### Dizin Ağaç Örneği:
-- src/
-  - index.js
-  - app.js
+Bu uygulama aşağıdaki istatistiksel ölçümleri hesaplar:
 
-**Önemli Not:**
-- Fonksiyon dosyalarının `ozetist_fonksiyonlar` klasöründen taşınması gerekmektedir.
+- **Ortalama (Mean)**: Verilerin aritmetik ortalaması
+- **Medyan (Median)**: Sıralanmış verilerin ortanca değeri
+- **Varyans (Variance)**: Verilerin ne kadar dağılmış olduğunun ölçüsü
+- **Birinci Çeyreklik (Q1)**: Verilerin %25. yüzdelik değeri
+- **Üçüncü Çeyreklik (Q3)**: Verilerin %75. yüzdelik değeri
+
+
+Bu projede MATLAB'ın hazır istatistik fonksiyonları kullanılmamıştır. Tüm hesaplamalar temel matematiksel algoritmaları kullanan elle yazılmış fonksiyonlar tarafından gerçekleştirilmektedir. Aşağıda örnek veriler girilerek sonuç veren Özet İstatistik Ekranı verilmiştir.
+
+
+<img width="781" height="586" alt="image" src="https://github.com/user-attachments/assets/f6d43399-6522-4748-8d8e-cd9c8a7154b5" />
+
+
+## Kurulum Ve Çalıştırma 🚀
+
+!Tüm dosyaları indirdikten sonra elle yazılan istatistik fonksiyonlarının hepsi dahil olmak üzere bütün dosyalar tek ve aynı klasör içinde olmalıdır.
+
+### Dosya Yapısı 📁
+
+⚠️ **ÖNEMLİ:** Projeyi indirdikten sonra **tüm dosyalar ve fonksiyonların aynı klasör içinde** bulunması gerekmektedir.  
+Fonksiyon dosyaları (örneğin: ortalama.m, medyan.m, varyans.m, Q1.m, Q3.m) dahil olmak üzere, tüm dosyaların tek bir dizinde olması gerekir.  
+Alt klasör kullanılmamalıdır.
+
+```
+ozet-istatistik-ekrani/
+├── ozetist.m
+├── ozetist.fig
+├── ortalama.m
+├── medyan.m
+├── varyans.m
+├── Q1.m
+├── Q3.m
+└── (diğer fonksiyon dosyaları)
+```
+
+> **Not:** `ozetist_fonksiyonlar` klasöründeki tüm fonksiyon dosyalarını ana klasöre taşımalısınız. Alt klasörde dosya bırakmayınız.
+
+1. Depoyu klonlayın veya dosyaları indirin:
+```bash
+git clone https://github.com/azvval/ozet-istatistik-ekrani.git
+cd ozet-istatistik-ekrani
+```
