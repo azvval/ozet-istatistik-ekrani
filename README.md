@@ -24,7 +24,7 @@ Bu projede MATLAB'ın hazır istatistik fonksiyonları kullanılmamıştır. Tü
 ### Dosya Yapısı 📁
 
 ⚠️ **ÖNEMLİ:** Projeyi indirdikten sonra **tüm dosyalar ve fonksiyonların aynı klasör içinde** bulunması gerekmektedir.  
-Fonksiyon dosyaları (örneğin: ortalama.m, medyan.m, varyans.m, Q1.m, Q3.m) dahil olmak üzere, tüm dosyaların tek bir dizinde olması gerekir.  
+Fonksiyon dosyaları (örneğin: ortalama.m, medyan.m, varyans.m, birinci_ceyrek.m, ucuncu_ceyrek.m) dahil olmak üzere, tüm dosyaların tek bir dizinde olması gerekir.  
 Alt klasör kullanılmamalıdır.
 
 ```
