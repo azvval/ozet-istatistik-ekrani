@@ -21,8 +21,6 @@ Bu projede MATLAB'ın hazır istatistik fonksiyonları kullanılmamıştır. Tü
 
 ## Kurulum Ve Çalıştırma 🚀
 
-!Tüm dosyaları indirdikten sonra elle yazılan istatistik fonksiyonlarının hepsi dahil olmak üzere bütün dosyalar tek ve aynı klasör içinde olmalıdır.
-
 ### Dosya Yapısı 📁
 
 ⚠️ **ÖNEMLİ:** Projeyi indirdikten sonra **tüm dosyalar ve fonksiyonların aynı klasör içinde** bulunması gerekmektedir.  
@@ -43,7 +41,7 @@ ozet-istatistik-ekrani/
 
 > **Not:** `ozetist_fonksiyonlar` klasöründeki tüm fonksiyon dosyalarını ana klasöre taşımalısınız. Alt klasörde dosya bırakmayınız.
 
-1. Depoyu klonlayın veya dosyaları indirin:
+ Depoyu klonlayın veya dosyaları indirin:
 ```bash
 git clone https://github.com/azvval/ozet-istatistik-ekrani.git
 cd ozet-istatistik-ekrani
