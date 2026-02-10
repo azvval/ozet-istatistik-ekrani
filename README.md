@@ -16,7 +16,8 @@ Bu uygulama aşağıdaki istatistiksel ölçümleri hesaplar:
 Bu projede MATLAB'ın hazır istatistik fonksiyonları kullanılmamıştır. Tüm hesaplamalar temel matematiksel algoritmaları kullanan elle yazılmış fonksiyonlar tarafından gerçekleştirilmektedir. Aşağıda örnek veriler girilerek sonuç veren Özet İstatistik Ekranı verilmiştir.
 
 
-<img width="781" height="586" alt="image" src="https://github.com/user-attachments/assets/f6d43399-6522-4748-8d8e-cd9c8a7154b5" />
+<img width="779" height="587" alt="image" src="https://github.com/user-attachments/assets/b3b5a8c1-4ee2-4553-96eb-1c372d80fde0" />
+
 
 
 ## Kurulum Ve Çalıştırma 🚀
